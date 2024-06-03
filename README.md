@@ -15,7 +15,7 @@ a gray liquidbounce nextgen theme
 
 ## how to download manually
   - clone into the repo `git clone https://github.com/larryngton/gray-lb`
-  - install dependencies`npm install`
+  - install dependencies `npm install`
   - build `npm run build`
 
 ## how to apply the theme
