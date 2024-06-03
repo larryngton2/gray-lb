@@ -20,8 +20,7 @@ a gray liquidbounce nextgen theme
   - `npm run build`
     
     ### linux only
-  - `cd ../../`
-  - `cp -r gray-lb [insert your /liquidbounce/themes folder destination]`
+  - `cp -r dist [insert your /liquidbounce/themes folder destination]`
     
     ### other os
   - move the newly created `dist` folder (if you can't find it use the search feature in a file manager) onto your /liquidbounce/themes folder
