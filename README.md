@@ -2,6 +2,7 @@
 a gray liquidbounce nextgen theme
 
 # preview
+(a bit outdated)
 ### main menu
 ![image](https://github.com/larryngton/gray-lb/assets/143325613/bb45fe8e-a635-49b6-97ac-f892ef9af322)
 
