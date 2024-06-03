@@ -70,19 +70,19 @@
         margin-left: auto;
         position: relative;
         z-index: 1;
-        box-shadow: -4px 0px 4px rgba(black, 0.55), 4px 0px 4px rgba(black, 0.55);
+        box-shadow: -4px 0px 4px rgba($accent-color, $transparency), 4px 0px 4px rgba($accent-color, $transparency);
         margin-top: 1px;
     }
 
     .module:first-child {
         border-top-right-radius: 7px;
         border-top-left-radius: 7px;
-        box-shadow: 0px -4px 4px rgba(black, 0.45), -4px 0px 4px 0px rgba(black, 0.45), 4px 0px 4px rgba(black, 0.45);
+        box-shadow: 0px -4px 4px rgba($accent-color, 0.55), -4px 0px 4px 0px rgba($accent-color, 0.55), 4px 0px 4px rgba($accent-color, 0.55);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
-        box-shadow: 0px 4px 4px rgba(black, 0.45), -4px 0px 4px rgba(black, 0.45), 4px 0px 4px rgba(black, 0.45);
+        box-shadow: 0px 4px 4px rgba($accent-color, 0.55), -4px 0px 4px rgba($accent-color, 0.55), 4px 0px 4px rgba($accent-color, 0.55);
     }
 </style>

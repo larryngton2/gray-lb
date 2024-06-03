@@ -42,7 +42,7 @@
     overflow: hidden;
     font-size: 14px;
     font-family: sans-serif;
-    box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
+    box-shadow: 0px 0px 4px 4px rgba($accent-color, $transparency);
   }
 
   .entries {

@@ -45,7 +45,8 @@
   .progress {
     position: relative;
     border-radius: 12px;
-    background-color: rgba($hotbar-base-color, 0.35);
+    background-color: rgba($hotbar-base-color, $transparency);
+    box-shadow: 0px 0px 2px 2px rgba($accent-color, $transparency);
 
     &.align-right {
       .label {

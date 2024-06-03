@@ -83,7 +83,7 @@
                     <Status
                             max={20}
                             value={playerData.armor}
-                            color="#6e6e6e"
+                            color="#3b3b3b"
                             alignRight={false}
                             icon="shield"
                     />
@@ -95,7 +95,7 @@
                     <Status
                             max={playerData.maxAir}
                             value={playerData.air}
-                            color="#6e6e6e"
+                            color="#3b3b3b"
                             alignRight={true}
                     />
                 {:else}
@@ -109,7 +109,7 @@
                         <Status
                                 max={maxAbsorption}
                                 value={playerData.absorption}
-                                color="#6e6e6e"
+                                color="#3b3b3b"
                                 alignRight={false}
                         />
 
@@ -120,14 +120,14 @@
                     <Status
                             max={playerData.maxHealth}
                             value={playerData.health}
-                            color="#3b3b3b"
+                            color="#2e2e2e"
                             alignRight={false}
                             icon="heart"
                     />
                     <Status
                             max={20}
                             value={playerData.food}
-                            color="#3b3b3b"
+                            color="#2e2e2e"
                             alignRight={true}
                             icon="food"
                     />
@@ -136,7 +136,7 @@
             {#if playerData.experienceLevel > 0}
                 <Status
                         max={100} value={playerData.experienceProgress * 100}
-                        color="#3b3b3b"
+                        color="#2e2e2e"
                         alignRight={false}
                         label={playerData.experienceLevel.toString()}
                 />
@@ -193,12 +193,15 @@
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
+    box-shadow: 0px 0px 4px 4px rgba($accent-color, $transparency);
     
     .slider {
-      border: solid 2px $accent-color;  
+      //border: solid 2px $accent-color;
+      background-color: rgba($accent-color, 0.6);
       height: 45px;
       width: 45px;
+      //padding: 10px;
+      padding-left: 10px;
       position: absolute;
       border-radius: 12px;
       transition: ease left 0.1s;
@@ -222,7 +225,7 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-    box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+    //box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
   }
 
   .item-name {
@@ -234,7 +237,7 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-    box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+    //box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
   }
 
   .overlay-message {

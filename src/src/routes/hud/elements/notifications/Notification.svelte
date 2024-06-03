@@ -29,7 +29,7 @@
     padding-bottom: 6px;
     padding-left: 6px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
+    box-shadow: 0px 0px 4px 4px rgba($accent-color, $transparency);
   }
 
   .icon {

@@ -64,9 +64,8 @@
         border-radius: 12px;
         overflow: hidden;
         animation: fade 0.5s;
-        box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
-        height: 61px;
-        min-width: 220px;
+        box-shadow: 0px 0px 4px 4px rgba($accent-color, $transparency);
+        height: 64px;
     }
 
     .main-wrapper {
@@ -74,7 +73,7 @@
         grid-template-areas:
             "a b d"
             "f c e";
-        padding: 6px;
+        padding: 7px;
     }
 
     .name {
