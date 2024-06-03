@@ -18,5 +18,11 @@ a gray liquidbounce nextgen theme
   - `cd src`
   - `npm install`
   - `npm run build`
-- now, move the newly created `dist` folder onto your ./liquidbounce/themes folder
-- ingame, run `.client theme set dist` *or the name you have given the theme folder*
+    
+    (linux only) `cd ../../`
+  - `cp -r gray-lb [insert your /liquidbounce/themes folder destination]`
+    
+    (other os) 
+  - move the newly created `dist` folder (if you can't find it use the search feature in a file manager) onto your /liquidbounce/themes folder
+    
+  - now ingame run `.client theme set dist` *or the name you have given the theme folder*
