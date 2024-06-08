@@ -15,10 +15,10 @@
 
     .health-progress {                   /*edited from riselb*/
         position: relative;
-        bottom: 22px;
-        left: 64px;
+        bottom: 23px;
+        left: 65px;
         border-radius: 6px;
-        max-width: 71%;
+        max-width: 190px;
         background-color: rgba($arraylist-base-color, 0.3);
     }
 

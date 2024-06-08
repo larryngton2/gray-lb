@@ -36,7 +36,7 @@
   @import "../../../../colors.scss";
 
   .main-button {
-    background-color: rgba($menu-base-color, 0);
+    background-color: rgba($menu-base-color, $transparency);
     width: 475px;
     padding: 15px 15px;
     display: grid;
@@ -45,11 +45,12 @@
     cursor: pointer;
     border-radius: 12px;
     column-gap: 25px;
-    background: linear-gradient(to left, rgba($menu-base-color, $transparency) 50%, $accent-color, $transparency);
+    background: linear-gradient(to left, rgba($menu-base-color, 0.4) 50%, $accent-color, 1);
     background-size: 200% 100%;
     background-position: right bottom;
     will-change: background-position;
     transition: background-position .2s ease-out;
+    border: solid 1px rgba($border-thing, 0.5);
 
     &:hover {
       background-position: left bottom;

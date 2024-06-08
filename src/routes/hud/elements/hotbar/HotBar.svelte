@@ -193,7 +193,8 @@
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
+    //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
+    border: solid 1px rgba($border-thing, 0.5);
     
     .slider {
       //border: solid 2px $accent-color;

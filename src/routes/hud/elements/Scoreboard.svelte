@@ -41,21 +41,23 @@
     border-radius: 12px;
     overflow: hidden;
     font-size: 14px;
-    font-family: sans-serif;
-    box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
+    font-family: "sans-serif", Arial;
+    //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
+    border: solid 1px rgba($border-thing, 0.5);
+    filter: grayscale(1);
   }
 
   .entries {
     background-color: rgba($scoreboard-base-color, $transparency);
     padding: 10px;
-    font-family: sans-serif;
+    font-family: "sans-serif", Arial;
   }
 
   .row {
     display: flex;
     column-gap: 15px;
     justify-content: space-between;
-    font-family: sans-serif;
+    font-family: "sans-serif", Arial;
   }
 
   .header {
@@ -63,6 +65,6 @@
     background-color: rgba($scoreboard-base-color, $transparency);
     padding: 7px 10px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "sans-serif", Arial;
   }
 </style>

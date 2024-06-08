@@ -52,37 +52,37 @@
         //position: fixed;
         //top: 0;
         //right: 0;
-        border-radius: 12px;
     }
 
     .module {
         background-color: rgba($arraylist-base-color, $transparency);
         color: $arraylist-text-color;
         font-size: 14px;
-        border-top-left-radius: 2px;
-        border-bottom-left-radius: 2px;
-        padding-left: 7px;
-        padding-top: 4px;
-        padding-right: 8px;
-        padding-bottom: 4px;
+        //border-top-left-radius: 2px;
+        //border-bottom-left-radius: 2px;
+        padding-left: 6px;
+        padding-top: 5px;
+        padding-right: 6.5px;
+        padding-bottom: 5px;
         width: max-content;
         font-weight: 500;
         margin-left: auto;
         position: relative;
-        z-index: 1;
-        box-shadow: -4px 0px 4px rgba(black, 0.55), 4px 0px 4px rgba(black, 0.55);
-        margin-top: 1px;
+        //box-shadow: -2px 0px 2px rgba(black, 0.55), 2px 0px 2px rgba(black, 0.55);
+        //margin-top: 1px;
+        //border-right: solid 2px rgba($accent-color, 0.5);
+        //border-left: solid 2px rgba($accent-color, 1);
     }
 
     .module:first-child {
         border-top-right-radius: 7px;
-        border-top-left-radius: 7px;
-        box-shadow: 0px -4px 4px rgba(black, 0.45), -4px 0px 4px 0px rgba(black, 0.45), 4px 0px 4px rgba(black, 0.45);
+        //border-top-left-radius: 7px;
+        //box-shadow: 0px -2px 2px rgba(black, 0.45), -2px 0px 2px 0px rgba(black, 0.45), 2px 0px 2px rgba(black, 0.45);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
-        border-bottom-left-radius: 7px;
-        box-shadow: 0px 4px 4px rgba(black, 0.45), -4px 0px 4px rgba(black, 0.45), 4px 0px 4px rgba(black, 0.45);
+        //border-bottom-left-radius: 7px;
+        //box-shadow: 0px 2px 2px rgba(black, 0.45), -2px 0px 2px rgba(black, 0.45), 2px 0px 2px rgba(black, 0.45);
     }
 </style>

@@ -64,8 +64,9 @@
         border-radius: 12px;
         overflow: hidden;
         animation: fade 0.5s;
-        box-shadow: 0px 0px 4px 4px rgba(black, 0.55);
-        height: 64px;
+        //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
+        height: 66px;
+        border: solid 1px rgba($border-thing, 0.5);
     }
 
     .main-wrapper {
@@ -82,13 +83,15 @@
         font-weight: 500;
         align-self: flex-start;
         padding-left: 58px;
-        padding-top: 7px;
+        padding-top: 9px;
     }
 
     .health-stats {
         grid-area: a;
-        padding-left: 217px;
-        padding-top: 7px;
+        padding-left: 228px;
+        padding-top: 9px;
+        //align-self: end;
+        //padding-right: 11px;
         .stat {
             .value {
                 color: $targethud-text-dimmed-color;
@@ -110,6 +113,8 @@
         background-size: cover;
         border-radius: 6px;
         overflow: hidden;
+        padding-left: 11px;
+        padding-top: 11px;
 
         img {
             position: absolute;
