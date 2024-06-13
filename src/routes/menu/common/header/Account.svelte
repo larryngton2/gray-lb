@@ -92,7 +92,7 @@
 
   .button-change-account {
     background-color: transparent;
-    border: none;
+    //border: none;
     grid-area: c;
     position: relative;
     height: max-content;

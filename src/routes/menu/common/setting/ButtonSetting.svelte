@@ -26,7 +26,7 @@
   @import "../../../../colors.scss";
 
   .button-setting {
-    border: none;
+    //border: none;
     background-color: $accent-color;
     color: $menu-text-color;
     font-family: "Inter", sans-serif;

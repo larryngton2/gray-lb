@@ -3,7 +3,11 @@
 .noUi-handle {
     background-color: $accent-color;
     box-shadow: unset;
+<<<<<<< HEAD
     border: none;
+=======
+    //border: none;
+>>>>>>> 14b5e7a (a?)
     border-radius: 50%;
     height: 12px !important;
     width: 12px !important;
@@ -18,7 +22,7 @@
 .noUi-target {
     margin: 10px 0;
     height: 2px;
-    border: none;
+    //border: none;
     background-color: darken($clickgui-text-color, 80%);
     box-shadow: unset;
 }

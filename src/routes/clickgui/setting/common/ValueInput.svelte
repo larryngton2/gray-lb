@@ -49,7 +49,7 @@
     font-weight: 500;
     font-size: 12px;
     background-color: transparent;
-    border: none;
+    //border: none;
     min-width: 5px;
     display: inline-block;
   }

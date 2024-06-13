@@ -44,7 +44,7 @@
     font-family: "Inter", sans-serif;
     font-size: 20px;
     background-color: rgba($menu-base-color, 0);
-    border: none;
+    //border: none;
     padding: 0 20px 0 18px;
     border-radius: 0 5px 5px 0;
     border-left: solid 2px $menu-base-color;

@@ -10,8 +10,14 @@
         z-index: 1;
         border-radius: 12px;
         background-color: rgba($arraylist-base-color, $transparency);
+<<<<<<< HEAD
         box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
         //border: solid 1px rgba($border-thing, 0.5);
         padding: 5px;
+=======
+        box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
+        //border: solid 1px rgba($border-thing, 0.5);
+        padding: 7px;
+>>>>>>> 14b5e7a (a?)
     }
 </style>

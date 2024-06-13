@@ -239,7 +239,7 @@
 
   .expand-toggle {
     background-color: transparent;
-    border: none;
+    //border: none;
     cursor: pointer;
 
     .icon {

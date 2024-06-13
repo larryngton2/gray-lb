@@ -41,7 +41,11 @@
     border-radius: 12px;
     overflow: hidden;
     font-size: 14px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+=======
+    box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
+>>>>>>> 14b5e7a (a?)
     //border: solid 1px rgba($border-thing, 0.5);
     filter: grayscale(1);
   }
