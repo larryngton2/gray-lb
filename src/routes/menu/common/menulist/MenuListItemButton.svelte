@@ -16,7 +16,7 @@
 <style lang="scss">
   .button {
     background-color: transparent;
-    //border: none;
+    border: none;
     cursor: pointer;
     position: relative;
     margin-left: 15px;

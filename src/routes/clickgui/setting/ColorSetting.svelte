@@ -137,7 +137,7 @@
         cursor: text;
         text-transform: uppercase;
         background-color: transparent;
-        //border: none;
+        border: none;
         padding: 0;
         margin: 0;
         margin-right: 15px;

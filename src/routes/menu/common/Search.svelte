@@ -16,7 +16,7 @@
 
   .search {
     background-color: rgba($menu-base-color, .36);
-    //border: none;
+    border: none;
     color: $menu-text-color;
     font-family: "Inter", sans-serif;
     font-size: 20px;

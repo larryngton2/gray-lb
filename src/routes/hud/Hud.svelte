@@ -55,10 +55,10 @@
                 {:else if c.name === "Frame"}
                     {#if c.settings.src.startsWith("http")}
                         <iframe title="" src="{c.settings.src}"
-                                style="width: {c.settings.width}px; height: {c.settings.height}px; //border: none;scale: {c.settings.scale};"></iframe>
+                                style="width: {c.settings.width}px; height: {c.settings.height}px; border: none;scale: {c.settings.scale};"></iframe>
                     {:else}
                         <iframe title="" srcdoc="{c.settings.src}"
-                                style="width: {c.settings.width}px; height: {c.settings.height}px; //border: none;scale: {c.settings.scale};"></iframe>
+                                style="width: {c.settings.width}px; height: {c.settings.height}px; border: none;scale: {c.settings.scale};"></iframe>
                     {/if}
                 {:else if c.name === "Html"}
                     {@html c.settings.code}
