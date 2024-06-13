@@ -27,7 +27,7 @@
       padding: 5px;
       background-color: rgba($clickgui-base-color, $transparency);
       border-radius: 12px;
-      //box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+      box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
       }
     }
 </style>

@@ -22,8 +22,7 @@
 
     .icon-text-button {
       display: flex;
-      border: none;
-
+      //border: none;
       border-radius: 6px;
       align-items: center;
       overflow: hidden;

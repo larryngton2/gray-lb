@@ -189,15 +189,15 @@
   }
 
   .hotbar-elements {
-    background-color: rgba($hotbar-base-color, $transparency);
+    background-color: rgba($hotbar-base-color, 0.5);
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
-    border: solid 1px rgba($border-thing, 0.5);
+    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    //border: solid 1px rgba($border-thing, 0.5);
     
     .slider {
-      //border: solid 2px $accent-color;
+      ////border: solid 2px $accent-color;
       background-color: rgba($accent-color, 0.6);
       height: 45px;
       width: 45px;
@@ -226,7 +226,8 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-    //box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    //border: solid 1px rgba($border-thing, 0.5);
   }
 
   .item-name {
@@ -238,7 +239,8 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-    //box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    //border: solid 1px rgba($border-thing, 0.5);
   }
 
   .overlay-message {

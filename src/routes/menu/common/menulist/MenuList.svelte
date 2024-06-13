@@ -48,6 +48,7 @@
 
   .menu-list {
     background-color: rgba($menu-base-color, $transparency);
+    //border: solid 1px rgba($border-thing, 0.5);
     flex: 1;
     border-radius: 5px;
     margin-bottom: 25px;

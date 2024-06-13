@@ -37,6 +37,7 @@
       background-color: $accent-color;
       transition: ease background-color .2s;
       padding: 15px;
+      //border: solid 1px rgba($border-thing, 0.5);
 
       &.parent-hovered {
         background-color: $menu-text-color;

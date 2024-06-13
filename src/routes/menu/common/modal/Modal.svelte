@@ -40,6 +40,7 @@
     height: 100vh;
     background-color: rgba($menu-base-color, $transparency);
     z-index: 99999;
+    //border: solid 1px rgba($border-thing, 0.5);
   }
 
   .modal {
@@ -53,6 +54,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 12px;
+    //border: solid 1px rgba($border-thing, 0.5);
   }
 
   .title {
@@ -90,7 +92,7 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border: solid 2px $menu-text-color;
+    //border: solid 2px $menu-text-color;
     border-radius: 50%;
     cursor: pointer;
     top: 20px;

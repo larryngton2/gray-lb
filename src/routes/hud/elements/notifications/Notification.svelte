@@ -29,8 +29,8 @@
     padding-bottom: 7px;
     padding-left: 7px;
     margin-bottom: 10px;
-    //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
-    border: solid 1px rgba($border-thing, 0.5);
+    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    //border: solid 1px rgba($border-thing, 0.5);
   }
 
   .icon {

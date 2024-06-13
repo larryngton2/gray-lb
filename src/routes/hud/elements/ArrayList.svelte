@@ -58,31 +58,35 @@
         background-color: rgba($arraylist-base-color, $transparency);
         color: $arraylist-text-color;
         font-size: 14px;
-        //border-top-left-radius: 2px;
-        //border-bottom-left-radius: 2px;
-        padding-left: 6px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        padding-left: 8px;
         padding-top: 5px;
-        padding-right: 6.5px;
+        padding-right: 8px;
         padding-bottom: 5px;
         width: max-content;
         font-weight: 500;
         margin-left: auto;
         position: relative;
-        //box-shadow: -2px 0px 2px rgba(black, 0.55), 2px 0px 2px rgba(black, 0.55);
+        box-shadow: -3px 0px 3px rgba(black, 0.3), 3px 0px 3px rgba(black, 0.3);
         //margin-top: 1px;
         //border-right: solid 2px rgba($accent-color, 0.5);
         //border-left: solid 2px rgba($accent-color, 1);
+        //border-left: solid 1px rgba($border-thing, 0.5);
+        //border-right: solid 1px rgba($border-thing, 0.5);
     }
 
     .module:first-child {
         border-top-right-radius: 7px;
-        //border-top-left-radius: 7px;
-        //box-shadow: 0px -2px 2px rgba(black, 0.45), -2px 0px 2px 0px rgba(black, 0.45), 2px 0px 2px rgba(black, 0.45);
+        border-top-left-radius: 7px;
+        //border-top: solid 1px rgba($border-thing, 0.5);
+        box-shadow: 0px -3px 3px rgba(black, 0.25), -3px 0px 3px 0px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
-        //border-bottom-left-radius: 7px;
-        //box-shadow: 0px 2px 2px rgba(black, 0.45), -2px 0px 2px rgba(black, 0.45), 2px 0px 2px rgba(black, 0.45);
+        border-bottom-left-radius: 7px;
+        //border-bottom: solid 1px rgba($border-thing, 0.5);
+        box-shadow: 0px 3px 3px rgba(black, 0.25), -3px 0px 3px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
     }
 </style>

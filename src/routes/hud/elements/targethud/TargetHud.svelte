@@ -64,9 +64,9 @@
         border-radius: 12px;
         overflow: hidden;
         animation: fade 0.5s;
-        //box-shadow: 0px 0px 2px 2px rgba(black, 0.55);
+        box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
         height: 66px;
-        border: solid 1px rgba($border-thing, 0.5);
+        //border: solid 1px rgba($border-thing, 0.5);
     }
 
     .main-wrapper {

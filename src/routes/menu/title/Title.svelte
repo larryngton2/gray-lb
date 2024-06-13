@@ -102,6 +102,7 @@
             "b c";
         grid-template-rows: 1fr max-content;
         grid-template-columns: 1fr max-content;
+        scale: 90%;
     }
 
     .main-buttons {

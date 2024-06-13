@@ -81,7 +81,7 @@
 
   .search-input {
     width: 100%;
-    border: none;
+    //border: none;
     border-bottom: solid 1px $accent-color;
     font-family: "Inter", sans-serif;
     font-size: 12px;

@@ -50,7 +50,7 @@
     background-color: rgba($menu-base-color, .36);
     color: $menu-text-color;
     padding: 10px;
-    border: solid 2px transparent;
+    //border: solid 2px transparent;
     border-radius: 12px;
     flex-grow: 1;
     display: flex;
