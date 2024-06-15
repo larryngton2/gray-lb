@@ -57,7 +57,7 @@
 
   .button-remove {
     background-color: transparent;
-    //border: none;
+    border: none;
     cursor: pointer;
   }
 
@@ -84,7 +84,7 @@
     font-size: 12px;
     color: $clickgui-text-color;
     background-color: $accent-color;
-    //border: none;
+    border: none;
     padding: 6px 10px;
     border-radius: 6px;
     width: 100%;
@@ -102,7 +102,7 @@
     font-family: monospace;
     font-size: 12px;
     color: $clickgui-text-color;
-    //border: none;
+    border: none;
     border-bottom: solid 2px $accent-color;
     padding: 6px;
     border-radius: 6px;

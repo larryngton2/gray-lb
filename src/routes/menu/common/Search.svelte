@@ -16,7 +16,7 @@
 
   .search {
     background-color: rgba($menu-base-color, .36);
-    //border: none;
+    border: none;
     color: $menu-text-color;
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -27,6 +27,6 @@
     background-position: 20px center;
     padding: 20px 20px 20px 60px;
     flex: 1;
-    //border: solid 1px rgba($border-thing, 0.5);
+     
   }
 </style>

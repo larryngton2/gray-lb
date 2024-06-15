@@ -50,7 +50,7 @@
     background-position: right bottom;
     will-change: background-position;
     transition: background-position .2s ease-out;
-    //border: solid 1px rgba($border-thing, 0.5);
+     
 
     &:hover {
       background-position: left bottom;

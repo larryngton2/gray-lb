@@ -12,6 +12,6 @@
       border-radius: 12px;
       display: flex;
       column-gap: 20px;
-      //border: solid 1px rgba($border-thing, 0.5);
+       
     }
 </style>

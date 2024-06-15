@@ -41,7 +41,7 @@
     font-family: monospace;
     font-size: 12px;
     color: $clickgui-text-color;
-    //border: none;
+    border: none;
     border-bottom: solid 2px $accent-color;
     padding: 5px;
     border-radius: 6px;

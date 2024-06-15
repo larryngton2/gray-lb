@@ -20,7 +20,7 @@
         position: relative;
         cursor: pointer;
         background-color: transparent;
-        //border: none;
+        border: none;
 
         &::after {
             content: "";

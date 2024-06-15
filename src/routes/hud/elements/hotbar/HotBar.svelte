@@ -193,12 +193,8 @@
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-<<<<<<< HEAD
     box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
-=======
-    box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
->>>>>>> 14b5e7a (a?)
-    //border: solid 1px rgba($border-thing, 0.5);
+     
     
     .slider {
       ////border: solid 2px $accent-color;
@@ -230,12 +226,8 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-<<<<<<< HEAD
     box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
-=======
-    box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
->>>>>>> 14b5e7a (a?)
-    //border: solid 1px rgba($border-thing, 0.5);
+     
   }
 
   .item-name {
@@ -247,12 +239,8 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-<<<<<<< HEAD
     box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
-=======
-    box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
->>>>>>> 14b5e7a (a?)
-    //border: solid 1px rgba($border-thing, 0.5);
+     
   }
 
   .overlay-message {

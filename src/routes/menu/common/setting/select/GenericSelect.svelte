@@ -89,6 +89,6 @@
     max-height: 250px;
     overflow: auto;
     background-color: rgba($menu-base-color, $transparency);
-    //border: solid 1px rgba($border-thing, 0.5);
+     
   }
 </style>

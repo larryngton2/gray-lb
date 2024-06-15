@@ -68,11 +68,7 @@
         font-weight: 500;
         margin-left: auto;
         position: relative;
-<<<<<<< HEAD
-        box-shadow: -3px 0px 3px rgba(black, 0.3), 3px 0px 3px rgba(black, 0.3);
-=======
-        box-shadow: -15px 0px 15px rgba(black, 0.30), 15px 0px 15px rgba(black, 0.30);
->>>>>>> 14b5e7a (a?)
+        box-shadow: -3px 0px 3px rgba(black, 0.30), 3px 0px 3px rgba(black, 0.30);
         //margin-top: 1px;
         //border-right: solid 2px rgba($accent-color, 0.5);
         //border-left: solid 2px rgba($accent-color, 1);
@@ -83,24 +79,14 @@
     .module:first-child {
         border-top-right-radius: 7px;
         border-top-left-radius: 7px;
-<<<<<<< HEAD
-        //border-top: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px -3px 3px rgba(black, 0.25), -3px 0px 3px 0px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
-=======
         border-top: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px -15px 15px rgba(black, 0.25), -15px 0px 15px 0px rgba(black, 0.25), 15px 0px 15px rgba(black, 0.25);
->>>>>>> 14b5e7a (a?)
+        box-shadow: 0px -3px 3px rgba(black, 0.25), -3px 0px 3px 0px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
-<<<<<<< HEAD
-        //border-bottom: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px 3px 3px rgba(black, 0.25), -3px 0px 3px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
-=======
         border-bottom: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px 15px 15px rgba(black, 0.25), -15px 0px 15px rgba(black, 0.25), 15px 0px 15px rgba(black, 0.25);
->>>>>>> 14b5e7a (a?)
+        box-shadow: 0px 3px 3px rgba(black, 0.25), -3px 0px 3px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
     }
 </style>

@@ -17,6 +17,6 @@
       align-items: center;
       column-gap: 30px;
       margin-bottom: 25px;
-      //border: solid 1px rgba($border-thing, 0.5);
+       
     }
 </style>

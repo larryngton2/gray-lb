@@ -64,13 +64,9 @@
         border-radius: 12px;
         overflow: hidden;
         animation: fade 0.5s;
-<<<<<<< HEAD
         box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
-=======
-        box-shadow: 0px 0px 15px 15px rgba(black, 0.3);
->>>>>>> 14b5e7a (a?)
         height: 66px;
-        //border: solid 1px rgba($border-thing, 0.5);
+         
     }
 
     .main-wrapper {
