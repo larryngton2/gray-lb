@@ -2,15 +2,15 @@
 a gray liquidbounce nextgen theme
 
 # preview
-(a bit outdated)
 ### main menu
-![image](https://github.com/larryngton/gray-lb/assets/143325613/bb45fe8e-a635-49b6-97ac-f892ef9af322)
+![image](https://github.com/larryngton/gray-lb/assets/143325613/3bcbb93f-728f-4eb3-a2e3-bc66962d0baf)
 
 ### clickgui
 ![image](https://github.com/larryngton/gray-lb/assets/143325613/b064a75f-3d96-4390-9d6d-4b0f4b48eee2)
 
 ### ingame hud
-![image](https://github.com/larryngton/gray-lb/assets/143325613/8216d303-5cfd-48ad-b879-db012b4dea67)
+![image](https://github.com/larryngton/gray-lb/assets/143325613/b04fba0f-44b6-4a76-a144-5bfa3120c39e)
+
 
 
 ## how to download manually
