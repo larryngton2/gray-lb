@@ -189,16 +189,16 @@
   }
 
   .hotbar-elements {
-    background-color: rgba($hotbar-base-color, 0.5);
+    background-color: rgba($hotbar-base-color, $transparency);
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
      
-    
+
     .slider {
-      ////border: solid 2px $accent-color;
-      background-color: rgba($accent-color, 0.6);
+      //border: solid 2px $accent-color;
+      background-color: rgba($accent-color, 0.65);
       height: 45px;
       width: 45px;
       //padding: 10px;
@@ -226,7 +226,7 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
      
   }
 
@@ -239,7 +239,7 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
      
   }
 

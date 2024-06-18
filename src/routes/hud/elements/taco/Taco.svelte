@@ -18,7 +18,7 @@
 
   .taco {
     position: relative;
-    height: 60px;
+    height: 50px;
     border-radius: 6px;
 
     img {
@@ -27,7 +27,7 @@
       padding: 5px;
       background-color: rgba($clickgui-base-color, $transparency);
       border-radius: 12px;
-      box-shadow: 0px 0px 4px 4px rgba(black, $transparency);
+      box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
       }
     }
 </style>

@@ -46,7 +46,7 @@
     position: relative;
     border-radius: 12px;
     background-color: rgba($hotbar-base-color, 0.5);
-    box-shadow: 0px 0px 3px 3px rgba(black, 0.3);
+    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
 
     &.align-right {
       .label {

@@ -68,7 +68,7 @@
         font-weight: 500;
         margin-left: auto;
         position: relative;
-        box-shadow: -3px 0px 3px rgba(black, 0.30), 3px 0px 3px rgba(black, 0.30);
+        box-shadow: -2px 0px 2px rgba(black, 0.32), 2px 0px 2px rgba(black, 0.32);
         //margin-top: 1px;
         //border-right: solid 2px rgba($accent-color, 0.5);
         //border-left: solid 2px rgba($accent-color, 1);
@@ -80,13 +80,13 @@
         border-top-right-radius: 7px;
         border-top-left-radius: 7px;
         border-top: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px -3px 3px rgba(black, 0.25), -3px 0px 3px 0px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
+        box-shadow: 0px -2px 2px rgba(black, 0.27), -2px 0px 2px 0px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
         border-bottom: solid 1px rgba($border-thing, 0.5);
-        box-shadow: 0px 3px 3px rgba(black, 0.25), -3px 0px 3px rgba(black, 0.25), 3px 0px 3px rgba(black, 0.25);
+        box-shadow: 0px 2px 2px rgba(black, 0.27), -2px 0px 2px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
     }
 </style>

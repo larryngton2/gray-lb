@@ -18,7 +18,7 @@
         bottom: 23px;
         left: 65px;
         border-radius: 6px;
-        max-width: 71%;
+        max-width: 70.5%;
         background-color: rgba($arraylist-base-color, 0.3);
     }
 

@@ -103,7 +103,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 95
+              "value": 72
             }
           ]
         }
@@ -298,18 +298,18 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Alignment",
           "value": [
             {
               "name": "Horizontal",
-              "value": "Right"
+              "value": "Left"
             },
             {
               "name": "HorizontalOffset",
-              "value": 75
+              "value": 220
             },
             {
               "name": "Vertical",
@@ -317,7 +317,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 40
+              "value": 15
             }
           ]
         }
