@@ -39,7 +39,7 @@
 
 <div class="arraylist">
     {#each enabledModules as { name } (name)}
-        <div class="module"  animate:flip={{ duration: 200 }} in:fly={{ x: 50, duration: 200 }} out:fly={{ x: 50, duration: 200 }}>
+        <div class="module"  animate:flip={{ duration: 100 }} in:fly={{ x: 50, duration: 100 }} out:fly={{ x: 50, duration: 100 }}>
             {$spaceSeperatedNames ? convertToSpacedString(name) : name}
         </div>
     {/each}

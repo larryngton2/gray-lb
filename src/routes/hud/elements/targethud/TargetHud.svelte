@@ -63,8 +63,7 @@
         background-color: rgba($targethud-base-color, $transparency);
         border-radius: 12px;
         overflow: hidden;
-        animation: fade 0.5s;
-        //box-shadow: 0px 0px 3px 3px rgba(black, 0.35);
+        animation: fade 0.1s;
         box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
         height: 66px;
          
