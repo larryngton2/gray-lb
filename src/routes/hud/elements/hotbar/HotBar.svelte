@@ -193,7 +193,7 @@
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
+    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
      
 
     .slider {
@@ -226,7 +226,7 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
+    box-shadow: 0px 0px 2px 2px rgba(black, 0.5);
      
   }
 
@@ -239,7 +239,7 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
+    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
      
   }
 

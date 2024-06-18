@@ -41,7 +41,7 @@
     border-radius: 12px;
     overflow: hidden;
     font-size: 14px;
-    box-shadow: 0px 1px 3px 1px rgba(black, 0.4);
+    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
      
     filter: grayscale(1);
   }
