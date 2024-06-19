@@ -13,7 +13,7 @@
 <style lang="scss">
     @import "../../../../colors.scss";
 
-    .health-progress {                   /*edited from riselb*/
+    .health-progress {
         position: relative;
         bottom: 23px;
         left: 65px;
@@ -27,5 +27,6 @@
         background-color: $accent-color;
         transition: ease width 0.5s;
         border-radius: 6px;
+        background-image: linear-gradient(to bottom right, rgba(#505050, 1), rgba(#2e2e2e, 1));
     }    
 </style>

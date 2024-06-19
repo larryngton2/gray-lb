@@ -14,7 +14,7 @@
   @import "../../../../colors.scss";
   
   .notification {
-    min-width: 170px;
+    min-width: 200px;
     display: grid;
     grid-template-areas:
             "a b"

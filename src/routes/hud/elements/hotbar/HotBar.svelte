@@ -197,11 +197,9 @@
      
 
     .slider {
-      //border: solid 2px $accent-color;
-      background-color: rgba($accent-color, 0.65);
+      background-image: linear-gradient(to bottom right, rgba(#505050, 0.45), rgba(#2e2e2e, 0.45));
       height: 45px;
       width: 45px;
-      //padding: 10px;
       padding-left: 10px;
       position: absolute;
       border-radius: 12px;

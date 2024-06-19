@@ -90,8 +90,6 @@
         grid-area: a;
         padding-left: 228px;
         padding-top: 9px;
-        //align-self: end;
-        //padding-right: 11px;
         .stat {
             .value {
                 color: $targethud-text-dimmed-color;
