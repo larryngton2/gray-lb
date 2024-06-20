@@ -74,14 +74,12 @@
     .module:first-child {
         border-top-right-radius: 7px;
         border-top-left-radius: 7px;
-        border-top: solid 2px rgba($border-thing, 0.5);
         box-shadow: 0px -2px 2px rgba(black, 0.27), -2px 0px 2px 0px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
-        border-bottom: solid 2px rgba($border-thing, 0.5);
         box-shadow: 0px 2px 2px rgba(black, 0.27), -2px 0px 2px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
     }
 </style>
