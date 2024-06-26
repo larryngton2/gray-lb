@@ -68,7 +68,7 @@
         font-weight: 500;
         margin-left: auto;
         position: relative;
-        box-shadow: -15px 0px 15px rgba(black, 0.2), 15px 0px 15px rgba(black, 0.2);
+        box-shadow: -15px 0px 15px rgba(black, 0.23), 15px 0px 15px rgba(black, 0.23);
     }
 
     .module:first-child {

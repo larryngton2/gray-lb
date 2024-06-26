@@ -11,7 +11,7 @@
         z-index: 1;
         border-radius: 12px;
         background-color: rgba($arraylist-base-color, $transparency);
-        box-shadow: -5px 0px 20px 15px rgba(black, 0.25);
+        box-shadow: 0px 0px 20px rgba(black, 0.6);
         padding: 5px;
     }
 
@@ -20,6 +20,6 @@
         background-color: rgba($arraylist-base-color, $transparency);
         padding: 5px;
         border-radius: 12px;
-        box-shadow: 10px 0px 20px 15px rgba(black, 0.25);
+        box-shadow: 0px 0px 20px rgba(black, 0.6);
     }
 </style>

@@ -64,7 +64,7 @@
         border-radius: 12px;
         overflow: hidden;
         animation: fade 0.1s;
-        box-shadow: 0px 0px 20px 20px rgba(black, 0.25);
+        box-shadow: 0px 0px 20px rgba(black, 0.6);
         height: 64px;
          
     }
