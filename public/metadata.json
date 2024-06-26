@@ -264,6 +264,34 @@
       ]
     },
     {
+    "name": "Taco",
+    "value": [
+       {
+        "name": "Enabled",
+        "value": true
+      },
+      {
+        "name": "Alignment",
+        "value": [
+          {
+            "name": "Horizontal",
+            "value": "Left"
+          },
+          {
+            "name": "HorizontalOffset",
+              "value": 220
+          },
+          {
+            "name": "Vertical",
+            "value": "Top"
+          },
+          {
+            "name": "VerticalOffset",
+            "value": 15
+          }
+        ]
+    },
+    {
       "name": "Keystrokes",
       "value": [
         {
@@ -319,9 +347,10 @@
               "name": "VerticalOffset",
               "value": 15
             }
-          ]
+           ]           
         }
-      ]
-    }
+                  ]
+       }
   ]
-}
+}       ]
+      }
