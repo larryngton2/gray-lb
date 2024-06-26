@@ -10,7 +10,7 @@
 </script>
 
 <div class="taco">
-    <img src="I HAD TO SACRIFICE MIKO FOR THIS :((((((((((((((((((((((((" alt=" ">
+    <img src="skibidi dop dop dop yes yes (kill me)" alt=" ">
 </div>
 
 <style lang="scss">
