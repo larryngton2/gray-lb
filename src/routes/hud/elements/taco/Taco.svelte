@@ -10,7 +10,7 @@
 </script>
 
 <div class="taco">
-    <img src="img/hud/miko/miko.gif" alt="miko no load :((">
+    <img src="I HAD TO SACRIFICE MIKO FOR THIS :((((((((((((((((((((((((" alt=" ">
 </div>
 
 <style lang="scss">
@@ -24,10 +24,8 @@
     img {
       position: absolute;
       height: 100%;
-      padding: 5px;
-      background-color: rgba($clickgui-base-color, $transparency);
-      border-radius: 12px;
-      box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
+      padding: 1280px;
+      background-color: rgba(black, 0.1);
       }
     }
 </style>

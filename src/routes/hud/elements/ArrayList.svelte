@@ -68,18 +68,18 @@
         font-weight: 500;
         margin-left: auto;
         position: relative;
-        box-shadow: -2px 0px 2px rgba(black, 0.35), 2px 0px 2px rgba(black, 0.35);
+        box-shadow: -15px 0px 15px rgba(black, 0.2), 15px 0px 15px rgba(black, 0.2);
     }
 
     .module:first-child {
         border-top-right-radius: 7px;
         border-top-left-radius: 7px;
-        box-shadow: 0px -2px 2px rgba(black, 0.27), -2px 0px 2px 0px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
+        box-shadow: 0px -15px 15px rgba(black, 0.15), -15px 0px 15px 0px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
-        box-shadow: 0px 2px 2px rgba(black, 0.27), -2px 0px 2px rgba(black, 0.27), 2px 0px 2px rgba(black, 0.27);
+        box-shadow: 0px 15px 15px rgba(black, 0.15), -15px 0px 15px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 </style>

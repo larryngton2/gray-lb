@@ -14,7 +14,7 @@
   @import "../../../../colors.scss";
   
   .notification {
-    min-width: 200px;
+    min-width: 255px;
     display: grid;
     grid-template-areas:
             "a b"
@@ -29,8 +29,7 @@
     padding-bottom: 7px;
     padding-left: 7px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
-     
+    box-shadow: 0px 0px 20px 20px rgba(black, 0.25);
   }
 
   .icon {
@@ -44,17 +43,17 @@
     position: relative;
 
     &.success {
-      background-color: #3b3b3b;
+      background-color: #3b3b3b00;
       background-image: url("/img/hud/notification/icon-success.svg");
     }
 
     &.error {
-      background-color: #3b3b3b;
+      background-color: #3b3b3b00;
       background-image: url("/img/hud/notification/icon-error.svg");
     }
 
     &.info {
-      background-color: #3b3b3b;
+      background-color: #3b3b3b00;
       background-image: url("/img/hud/notification/icon-info.svg");
     }
 
@@ -76,7 +75,7 @@
     }
 
     &.enabled {
-      background-color: #3b3b3b;
+      background-color: #3b3b3b00;
 
       &::after {
         left: 62%;
@@ -84,7 +83,7 @@
     }
 
     &.disabled {
-      background-color: #3b3b3b;
+      background-color: #3b3b3b00;
 
       &::after {
         left: 38%;

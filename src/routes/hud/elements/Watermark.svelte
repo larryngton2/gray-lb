@@ -1,4 +1,5 @@
-<img class="watermark" src="img/lb-logo.svg" alt="watermark" />
+<img class="watermark" src="img/lb-logo.svg" alt="watermark"/>
+<img class="miko" src="img/hud/miko/miko.gif" alt="miko"/>
 
 <style lang="scss">
     @import "../../../colors.scss";
@@ -10,7 +11,15 @@
         z-index: 1;
         border-radius: 12px;
         background-color: rgba($arraylist-base-color, $transparency);
-        box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
+        box-shadow: -5px 0px 20px 15px rgba(black, 0.25);
         padding: 5px;
+    }
+
+    .miko {
+        height: 50px;
+        background-color: rgba($arraylist-base-color, $transparency);
+        padding: 5px;
+        border-radius: 12px;
+        box-shadow: 10px 0px 20px 15px rgba(black, 0.25);
     }
 </style>

@@ -77,7 +77,6 @@
             </div>
         {/if}
         <div class="status">
-
             <div class="pair">
                 {#if playerData.armor > 0}
                     <Status
@@ -178,6 +177,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 25px;
+    border-radius: 12px;
   }
 
   .status {
@@ -193,17 +193,18 @@
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
+    box-shadow: 0px 0px 20px 20px rgba(black, 0.25);
      
 
     .slider {
-      background-image: linear-gradient(to bottom right, rgba(#505050, 0.45), rgba(#2e2e2e, 0.45));
       height: 45px;
       width: 45px;
       padding-left: 10px;
       position: absolute;
       border-radius: 12px;
       transition: ease left 0.1s;
+      box-shadow: 0px 0px 10px 10px rgba(black, 0.3);
+      border: solid 1px $accent-color;
     }
 
     .slots {
@@ -224,8 +225,7 @@
     position: absolute;
     bottom: 0;
     left: -65px;
-    box-shadow: 0px 0px 2px 2px rgba(black, 0.5);
-     
+    box-shadow: 0px 0px 20px 20px rgba(black, 0.25);
   }
 
   .item-name {
@@ -237,7 +237,6 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
-    box-shadow: 0px 0px 2px 2px rgba(black, 0.35);
      
   }
 

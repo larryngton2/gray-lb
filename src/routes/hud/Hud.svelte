@@ -12,7 +12,6 @@
     import Taco from "./elements/taco/Taco.svelte";
     import type {ComponentsUpdateEvent, ScaleFactorChangeEvent} from "../../integration/events";
     import Effects from "./elements/Effects.svelte";
-    import Test from "./elements/Test.svelte"
 
     let zoom = 100;
     let components: Component[] = [];
@@ -47,8 +46,6 @@
                     <TargetHud/>
                 {:else if c.name === "Hotbar"}
                     <HotBar/>
-                {:else if c.name === "Test"}
-                    <Test/>
                 {:else if c.name === "Scoreboard"}
                     <Scoreboard/>
                 {:else if c.name === "Taco"}

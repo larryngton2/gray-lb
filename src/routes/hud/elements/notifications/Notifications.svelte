@@ -1,5 +1,4 @@
 <script lang="ts">
-    import {flip} from "svelte/animate";
     import {listen} from "../../../../integration/ws";
     import {fade} from "svelte/transition";
     import Notification from "./Notification.svelte";
