@@ -18,13 +18,10 @@
 
   .taco {
     position: relative;
-    height: 50px;
-    border-radius: 6px;
 
     img {
       position: absolute;
-      height: 100%;
-      padding: 1280px;
+      padding: 2000px;
       background-color: rgba(black, 0.1);
       }
     }
