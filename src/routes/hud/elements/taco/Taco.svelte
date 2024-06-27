@@ -10,7 +10,7 @@
 </script>
 
 <div class="taco">
-    <img src="skibidi dop dop dop yes yes (kill me)" alt=" ">
+    <img class="miko" src="img/hud/miko/miko.gif" alt="miko"/>
 </div>
 
 <style lang="scss">
@@ -21,8 +21,11 @@
 
     img {
       position: absolute;
-      padding: 2000px;
-      background-color: rgba(black, 0.1);
+      padding: 5px;
+      background-color: rgba($arraylist-base-color, $transparency);
+      height: 50px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 20px rgba(black, 0.6);
       }
     }
 </style>

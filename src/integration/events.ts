@@ -17,6 +17,14 @@ export interface ScaleFactorChangeEvent {
     scaleFactor: number;
 }
 
+export interface ClientInfo {
+    fps: number;
+}
+
+export interface Account {
+    username: string;
+}
+
 export interface ComponentsUpdateEvent {
     components: Component[];
 }

@@ -28,7 +28,7 @@
 </script>
 
 {#if visible && target != null}
-    <div class="targethud" transition:fade|global={{duration: 200}}>
+    <div class="targethud" transition:fade|global={{duration: 100}}>
         <div class="main-wrapper">
             <div class="avatar">
                 <img src="{REST_BASE}/api/v1/client/resource/skin?uuid={target.uuid}" alt="avatar" />
@@ -63,7 +63,6 @@
         background-color: rgba($targethud-base-color, $transparency);
         border-radius: 12px;
         overflow: hidden;
-        animation: fade 0.1s;
         box-shadow: 0px 0px 20px rgba(black, 0.6);
         height: 64px;
          

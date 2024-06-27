@@ -203,7 +203,7 @@
       position: absolute;
       border-radius: 12px;
       transition: ease left 0.1s;
-      box-shadow: 0px 0px 20px rgba(black, 0.6);
+      box-shadow: 0px 0px 20px 7px rgba(black, 0.6);
       border: solid 1px $accent-color;
     }
 

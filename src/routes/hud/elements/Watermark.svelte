@@ -1,5 +1,5 @@
 <img class="watermark" src="img/lb-logo.svg" alt="watermark"/>
-<img class="miko" src="img/hud/miko/miko.gif" alt="miko"/>
+<img class="shaderfix" src="hello" alt=""/>
 
 <style lang="scss">
     @import "../../../colors.scss";
@@ -15,11 +15,11 @@
         padding: 5px;
     }
 
-    .miko {
-        height: 50px;
-        background-color: rgba($arraylist-base-color, $transparency);
-        padding: 5px;
-        border-radius: 12px;
-        box-shadow: 0px 0px 20px rgba(black, 0.6);
+    .shaderfix {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        padding: 2000px;
+        background-color: rgba(black, 0.1);
     }
 </style>
