@@ -9,8 +9,7 @@ a gray liquidbounce nextgen theme
 ![image](https://github.com/larryngton/gray-lb/assets/143325613/b064a75f-3d96-4390-9d6d-4b0f4b48eee2)
 
 ### ingame hud
-![image](https://github.com/larryngton/gray-lb/assets/143325613/b04fba0f-44b6-4a76-a144-5bfa3120c39e)
-
+![image](https://github.com/larryngton/gray-lb/assets/143325613/32d2f829-f22f-42d8-a371-c2050579a615)
 
 
 ## how to download manually
