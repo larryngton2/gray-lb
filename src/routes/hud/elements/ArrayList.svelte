@@ -58,8 +58,8 @@
         background-color: rgba($arraylist-base-color, $transparency);
         color: $arraylist-text-color;
         font-size: 14px;
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
         padding-left: 8px;
         padding-top: 5px;
         padding-right: 8px;
@@ -72,12 +72,14 @@
     }
 
     .module:first-child {
-        border-top-right-radius: 7px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
         box-shadow: 0px -15px 15px rgba(black, 0.15), -15px 0px 15px 0px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 
     .module:last-child {
-        border-bottom-right-radius: 7px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
         box-shadow: 0px 15px 15px rgba(black, 0.15), -15px 0px 15px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 </style>
