@@ -237,6 +237,7 @@
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
+    box-shadow: 0px 0px 20px rgba(black, 0.6);
      
   }
 
