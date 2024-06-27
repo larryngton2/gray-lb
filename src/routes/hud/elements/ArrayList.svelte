@@ -73,13 +73,11 @@
 
     .module:first-child {
         border-top-right-radius: 7px;
-        border-top-left-radius: 7px;
         box-shadow: 0px -15px 15px rgba(black, 0.15), -15px 0px 15px 0px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 
     .module:last-child {
         border-bottom-right-radius: 7px;
-        border-bottom-left-radius: 7px;
         box-shadow: 0px 15px 15px rgba(black, 0.15), -15px 0px 15px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
     }
 </style>
