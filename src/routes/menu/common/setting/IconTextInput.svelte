@@ -40,14 +40,14 @@
   }
 
   .input {
-    color: $menu-text-color;
+    color: $text-color;
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    background-color: rgba($menu-base-color, 0);
+    background-color: rgba($background-color, 0);
     border: none;
     padding: 0 20px 0 18px;
     border-radius: 0 5px 5px 0;
-    border-left: solid 2px $menu-base-color;
+    border-left: solid 2px $background-color;
     width: 100%;
      
 

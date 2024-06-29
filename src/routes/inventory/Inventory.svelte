@@ -9,7 +9,7 @@
         bottom: 120px;
         left: 45%;
         width: 200px;
-        background-color: rgba($arraylist-base-color, $transparency);
+        background-color: rgba($background-color, $transparency);
         border-radius: 12px;
         box-shadow: 0px 0px 20px rgba(black, 0.6);
         padding: 5px

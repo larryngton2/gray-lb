@@ -57,7 +57,7 @@
   }
 
   .title {
-    color: $clickgui-text-color;
+    color: $text-color;
     font-size: 12px;
     font-weight: 600;
   }

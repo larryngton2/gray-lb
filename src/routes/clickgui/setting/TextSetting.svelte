@@ -30,17 +30,17 @@
 
   .name {
     font-weight: 500;
-    color: $clickgui-text-color;
+    color: $text-color;
     font-size: 12px;
     margin-bottom: 5px;
   }
 
   .value {
     width: 100%;
-    background-color: rgba($clickgui-base-color, .36);
+    background-color: rgba($background-color, .36);
     font-family: monospace;
     font-size: 12px;
-    color: $clickgui-text-color;
+    color: $text-color;
     border: none;
     border-bottom: solid 2px $accent-color;
     padding: 5px;

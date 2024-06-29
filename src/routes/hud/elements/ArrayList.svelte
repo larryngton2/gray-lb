@@ -55,11 +55,11 @@
     }
 
     .module {
-        background-color: rgba($arraylist-base-color, $transparency);
-        color: $arraylist-text-color;
+        background-color: rgba($background-color, $transparency);
+        color: $text-color;
         font-size: 14px;
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
         padding-left: 8px;
         padding-top: 5px;
         padding-right: 8px;
@@ -74,12 +74,12 @@
     .module:first-child {
         border-top-right-radius: 6px;
         border-top-left-radius: 6px;
-        box-shadow: 0px -15px 15px rgba(black, 0.15), -15px 0px 15px 0px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
+        box-shadow: 0px -15px 15px rgba(black, 0.23), -15px 0px 15px 0px rgba(black, 0.23), 15px 0px 15px rgba(black, 0.23);
     }
 
     .module:last-child {
         border-bottom-right-radius: 6px;
         border-bottom-left-radius: 6px;
-        box-shadow: 0px 15px 15px rgba(black, 0.15), -15px 0px 15px rgba(black, 0.15), 15px 0px 15px rgba(black, 0.15);
+        box-shadow: 0px 15px 15px rgba(black, 0.23), -15px 0px 15px rgba(black, 0.23), 15px 0px 15px rgba(black, 0.23);
     }
 </style>

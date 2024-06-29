@@ -76,7 +76,7 @@
 
     .text {
       font-weight: 500;
-      color: $clickgui-text-color;
+      color: $text-color;
       font-size: 12px;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -104,7 +104,7 @@
 
   .options {
     padding: 6px 10px;
-    background-color: $clickgui-base-color;
+    background-color: $background-color;
     border: solid 1px $accent-color;
     border-top: none;
     border-radius: 0 0 3px 3px;
@@ -113,7 +113,7 @@
     position: absolute;
 
     .option {
-      color: $clickgui-text-dimmed-color;
+      color: $text-dimmed-color;
       font-weight: 500;
       font-size: 12px;
       padding: 5px 0;
@@ -122,7 +122,7 @@
       transition: ease color 0.2s;
 
       &:hover {
-        color: $clickgui-text-color;
+        color: $text-color;
       }
 
       &.active {

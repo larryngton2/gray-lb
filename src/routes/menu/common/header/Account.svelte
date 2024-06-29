@@ -47,7 +47,7 @@
   @import "../../../../colors";
 
   .account {
-    background-color: rgba($hotbar-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     padding: 15px 15px;
     padding-right: 20px;
     border-radius: 12px;
@@ -69,7 +69,7 @@
 
   .username {
     font-weight: 600;
-    color: $menu-text-color;
+    color: $text-color;
     font-size: 20px;
     grid-area: b;
     align-self: flex-end;
@@ -86,7 +86,7 @@
     }
 
     .offline {
-      color: $menu-text-dimmed-color;
+      color: $text-dimmed-color;
     }
   }
 

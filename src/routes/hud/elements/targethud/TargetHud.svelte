@@ -28,7 +28,7 @@
 </script>
 
 {#if visible && target != null}
-    <div class="targethud" transition:fade|global={{duration: 100}}>
+    <div class="targethud" transition:fade|global={{duration: 200}}>
         <div class="main-wrapper">
             <div class="avatar">
                 <img src="{REST_BASE}/api/v1/client/resource/skin?uuid={target.uuid}" alt="avatar" />
@@ -60,7 +60,7 @@
         //left: calc(50% + 20px);
         //transform: translateY(-50%); // overwrites the component transform
         width: 270px;
-        background-color: rgba($targethud-base-color, $transparency);
+        background-color: rgba($background-color, $transparency);
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0px 0px 20px rgba(black, 0.6);
@@ -78,7 +78,7 @@
 
     .name {
         grid-area: a;
-        color: $targethud-text-color;
+        color: $text-color;
         font-weight: 500;
         align-self: flex-start;
         padding-left: 58px;
@@ -87,14 +87,15 @@
 
     .health-stats {
         grid-area: a;
-        padding-left: 228px;
+        padding-left: 229px;
         padding-top: 9px;
         .stat {
             .value {
-                color: $targethud-text-dimmed-color;
+                color: $text-dimmed-color;
                 font-size: 14px;
                 min-width: 18px;
                 display:inline-block;
+                text-align: right;
             }
         }
     }

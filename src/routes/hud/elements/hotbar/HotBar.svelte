@@ -66,13 +66,13 @@
 {#if playerData && playerData.gameMode !== "spectator"}
     <div class="hotbar">
         {#if overlayMessage !== null}
-            <div class="overlay-message" out:fade={{duration: 200}}
+            <div class="overlay-message" transition:fade|global={{duration: 200}}
                  style="max-width: {slotsElement?.offsetWidth ?? 0}px">
                 <TextComponent fontSize={14} textComponent={overlayMessage.text}/>
             </div>
         {/if}
         {#if showItemStackName && itemStackName !== null}
-            <div class="item-name" out:fade={{duration: 200}}>
+            <div class="item-name" transition:fade|global={{duration: 200}}>
                 <TextComponent fontSize={14} textComponent={itemStackName}/>
             </div>
         {/if}
@@ -158,7 +158,7 @@
         </div>
 
         {#if playerData?.offHandStack.identifier !== "minecraft:air"}
-            <div class="offhand-slot"></div>
+            <div class="offhand-slot" transition:fade|global={{duration: 200}}></div>
         {/if}
     </div>
 {/if}
@@ -183,13 +183,13 @@
   .status {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     row-gap: 5px;
     column-gap: 20px;
   }
 
   .hotbar-elements {
-    background-color: rgba($hotbar-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     position: relative;
     border-radius: 12px;
     overflow: hidden;
@@ -221,7 +221,7 @@
     height: 45px;
     width: 45px;
     border-radius: 12px;
-    background-color: rgba($hotbar-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     position: absolute;
     bottom: 0;
     left: -65px;
@@ -229,11 +229,11 @@
   }
 
   .item-name {
-    color: $hotbar-text-color;
+    color: $text-color;
     font-size: 14px;
     margin: 0 auto 15px;
     font-weight: 500;
-    background-color: rgba($hotbar-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     padding: 5px 8px;
     border-radius: 6px;
     width: max-content;
@@ -243,8 +243,12 @@
 
   .overlay-message {
     text-align: center;
-    color: $hotbar-text-color;
+    color: $text-color;
     margin-bottom: 15px;
     overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(black, 0.6);
+    border-radius: 6px;
+    padding: 5px 8px;
+    background-color: rgba($background-color, $transparency);
   }
 </style>

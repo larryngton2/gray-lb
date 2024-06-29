@@ -166,12 +166,12 @@
     left: 50%;
     top: 50px;
     transform: translateX(-50%);
-    background-color: rgba($clickgui-base-color, 0.9);
+    background-color: rgba($background-color, 0.9);
     width: 600px;
     border-radius: 30px;
     overflow: hidden;
     transition: ease border-radius 0.2s;
-    box-shadow: 0 0 10px rgba($clickgui-base-color, 0.5);
+    box-shadow: 0 0 10px rgba($background-color, 0.5);
 
     &.has-results {
       border-radius: 10px;
@@ -190,7 +190,7 @@
 
     .result {
       .module-name {
-        color: $clickgui-text-dimmed-color;
+        color: $text-dimmed-color;
         transition: ease color 0.2s;
       }
 
@@ -201,7 +201,7 @@
       }
 
       .aliases {
-        color: rgba($clickgui-text-dimmed-color, .6);
+        color: rgba($text-dimmed-color, .6);
         margin-left: 10px;
       }
 
@@ -217,18 +217,18 @@
       }
 
       &:hover {
-        color: $clickgui-text-color;
+        color: $text-color;
 
         &::after {
           content: "Right-click to locate";
-          color: rgba($clickgui-text-color, 0.4);
+          color: rgba($text-color, 0.4);
           font-size: 12px;
         }
       }
     }
 
     .placeholder {
-      color: $clickgui-text-dimmed-color;
+      color: $text-dimmed-color;
       font-size: 16px;
       padding: 10px 0;
     }
@@ -244,7 +244,7 @@
     border: none;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    color: $clickgui-text-color;
+    color: $text-color;
     width: 100%;
   }
 </style>

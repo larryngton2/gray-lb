@@ -71,7 +71,7 @@
     transition: ease border-radius .2s;
 
     .title {
-      color: $menu-text-color;
+      color: $text-color;
       font-size: 20px;
       font-weight: 500;
 
@@ -88,7 +88,7 @@
     border-radius: 0 0 5px 5px;
     max-height: 250px;
     overflow: auto;
-    background-color: rgba($menu-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
      
   }
 </style>

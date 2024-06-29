@@ -6,7 +6,7 @@
     @import "../../../../colors.scss";
 
     .button-container {
-      background-color: rgba($menu-base-color, $transparency);
+      background-color: rgba($background-color, $transparency);
       padding: 15px 30px;
       width: max-content;
       border-radius: 12px;

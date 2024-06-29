@@ -27,7 +27,7 @@
   @import "../../../../colors.scss";
 
   .label {
-    color: $hotbar-text-color;
+    color: $text-color;
     position: absolute;
     font-size: 14px;
     right: 5px;
@@ -45,7 +45,7 @@
   .progress {
     position: relative;
     border-radius: 12px;
-    background-color: rgba($hotbar-base-color, 0.5);
+    background-color: rgba($background-color, 0.5);
     box-shadow: 0px 0px 20px rgba(black, 0.6);
 
     &.align-right {

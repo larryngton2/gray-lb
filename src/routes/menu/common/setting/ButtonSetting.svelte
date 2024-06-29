@@ -28,7 +28,7 @@
   .button-setting {
     border: none;
     background-color: $accent-color;
-    color: $menu-text-color;
+    color: $text-color;
     font-family: "Inter", sans-serif;
     padding: 20px;
     border-radius: 12px;
@@ -40,7 +40,7 @@
     }
 
     &.secondary {
-      background-color: rgba($menu-base-color, 0);
+      background-color: rgba($background-color, 0);
     }
 
     &:not([disabled]):hover {
@@ -48,7 +48,7 @@
       cursor: pointer;
 
       &.secondary {
-        background-color: darken(desaturate($menu-base-color, 0%), 0%);
+        background-color: darken(desaturate($background-color, 0%), 0%);
       }
     }
 

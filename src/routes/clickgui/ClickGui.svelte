@@ -51,7 +51,7 @@
   @import "../../colors.scss";
 
   .clickgui {
-    background-color: rgba($clickgui-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     overflow: hidden;
     position: relative;
     will-change: opacity;

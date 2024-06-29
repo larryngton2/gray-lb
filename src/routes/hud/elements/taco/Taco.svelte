@@ -22,7 +22,7 @@
     img {
       position: absolute;
       padding: 5px;
-      background-color: rgba($arraylist-base-color, $transparency);
+      background-color: rgba($background-color, $transparency);
       height: 50px;
       border-radius: 12px;
       box-shadow: 0px 0px 20px rgba(black, 0.6);

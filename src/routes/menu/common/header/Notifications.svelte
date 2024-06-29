@@ -53,7 +53,7 @@
   .notification {
     grid-row-start: 1;
     grid-column-start: 1;
-    background-color: rgba($menu-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     border-radius: 12px;
     display: grid;
     grid-template-areas:
@@ -65,7 +65,7 @@
     min-width: 350px;
 
     .title {
-      color: $menu-text-color;
+      color: $text-color;
       font-weight: 600;
       font-size: 18px;
       grid-area: b;
@@ -73,7 +73,7 @@
     }
 
     .message {
-      color: $menu-text-dimmed-color;
+      color: $text-dimmed-color;
       font-weight: 500;
       grid-area: c;
     }

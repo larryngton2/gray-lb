@@ -89,7 +89,7 @@
     cursor: pointer;
     padding: 5px;
     font-weight: 500;
-    color: $clickgui-text-color;
+    color: $text-color;
     font-size: 12px;
     font-family: "Inter", sans-serif;
     width: 100%;
@@ -102,7 +102,7 @@
     }
 
     .none {
-      color: $clickgui-text-dimmed-color;
+      color: $text-dimmed-color;
     }
   }
 </style>

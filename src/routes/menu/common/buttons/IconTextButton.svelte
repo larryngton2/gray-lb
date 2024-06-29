@@ -26,7 +26,7 @@
       border-radius: 6px;
       align-items: center;
       overflow: hidden;
-      background: linear-gradient(to left, rgba($menu-base-color, .36) 50%, $accent-color 50%);
+      background: linear-gradient(to left, rgba($background-color, .36) 50%, $accent-color 50%);
       background-size: 200% 100%;
       background-position: right bottom;
       will-change: background-position;
@@ -56,7 +56,7 @@
     .title {
       font-size: 20px;
       font-weight: 500;
-      color: $menu-text-color;
+      color: $text-color;
       padding: 0 30px;
     }
 </style>

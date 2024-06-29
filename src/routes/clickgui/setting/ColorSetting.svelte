@@ -120,7 +120,7 @@
     .name {
         grid-area: a;
         font-weight: 500;
-        color: $clickgui-text-color;
+        color: $text-color;
         font-size: 12px;
     }
 
@@ -131,7 +131,7 @@
 
     .value {
         font-weight: 500;
-        color: $clickgui-text-color;
+        color: $text-color;
         text-align: right;
         font-size: 12px;
         cursor: text;

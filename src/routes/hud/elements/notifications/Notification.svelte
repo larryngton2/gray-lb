@@ -21,7 +21,7 @@
             "a c";
     grid-template-columns: max-content 1fr;
     column-gap: 10px;
-    background: rgba(0, 0, 0, $transparency);
+    background: rgba($background-color, $transparency);
     border-radius: 12px;
     overflow: hidden;
     padding-right: 12px;

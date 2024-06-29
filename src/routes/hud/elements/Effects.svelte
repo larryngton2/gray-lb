@@ -2,6 +2,7 @@
     import {listen} from "../../../integration/ws";
     import type {ClientPlayerDataEvent} from "../../../integration/events";
     import type {StatusEffect} from "../../../integration/types";
+    import {fade} from "svelte/transition";
 
     let effects: StatusEffect[] = [];
 
@@ -32,7 +33,7 @@
 
 <div class="effects">
     {#each effects as e}
-        <div class="effect">
+        <div class="effect" transition:fade|global={{duration: 200}}>
             <span class="name" style="color: {'#' + e.color.toString(16)}">{e.localizedName} {convertToRoman(e.amplifier)}:</span>
             <span class="duration">{formatTime(e.duration)}</span>
         </div>
@@ -45,11 +46,23 @@
   .effect {
     font-weight: 500;
     font-size: 14px;
-    text-align: right;
+    text-align: left;
+    background-color: rgba($background-color, $transparency);
+    padding: 5px 8px;
+    box-shadow: 0px 0px 20px rgba(black, 0.6);
 
     .duration {
-      font-family: monospace;
       color: white;
     }
+  }
+
+  .effect:first-child {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .effect:last-child {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
 </style>

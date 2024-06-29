@@ -47,7 +47,7 @@
   }
 
   .entries {
-    background-color: rgba($scoreboard-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -61,7 +61,7 @@
 
   .header {
     text-align: center;
-    background-color: rgba($scoreboard-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     padding: 7px 10px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;

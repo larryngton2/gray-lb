@@ -36,7 +36,7 @@
   @import "../../../../colors.scss";
 
   .main-button {
-    background-color: rgba($menu-base-color, $transparency);
+    background-color: rgba($background-color, $transparency);
     width: 475px;
     padding: 15px 15px;
     display: grid;
@@ -45,7 +45,7 @@
     cursor: pointer;
     border-radius: 12px;
     column-gap: 25px;
-    background: linear-gradient(to left, rgba($menu-base-color, 0.4) 50%, $accent-color, 1);
+    background: linear-gradient(to left, rgba($background-color, 0.4) 50%, $accent-color, 1);
     background-size: 200% 100%;
     background-position: right bottom;
     will-change: background-position;
@@ -56,7 +56,7 @@
       background-position: left bottom;
 
       .icon {
-        background-color: $menu-text-color;
+        background-color: $text-color;
       }
     }
   }
@@ -79,7 +79,7 @@
 
   .title {
     font-size: 26px;
-    color: $menu-text-color;
+    color: $text-color;
     font-weight: 600;
   }
 </style>

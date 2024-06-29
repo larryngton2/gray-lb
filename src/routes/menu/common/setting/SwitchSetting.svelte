@@ -25,7 +25,7 @@
   }
 
   .title {
-    color: $menu-text-color;
+    color: $text-color;
     font-size: 20px;
     margin-left: 10px;
     font-weight: 500;
@@ -37,7 +37,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: darken($menu-text-color, 55%);
+    background-color: darken($text-color, 55%);
     transition: ease 0.4s;
     height: 14px;
     border-radius: 10px;
@@ -49,7 +49,7 @@
       width: 21px;
       top: -4px;
       left: -10px;
-      background-color: $menu-text-color;
+      background-color: $text-color;
       transition: ease 0.4s;
       border-radius: 50%;
     }

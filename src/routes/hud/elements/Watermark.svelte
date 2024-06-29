@@ -10,7 +10,7 @@
         width: 200px;
         z-index: 1;
         border-radius: 12px;
-        background-color: rgba($arraylist-base-color, $transparency);
+        background-color: rgba($background-color, $transparency);
         box-shadow: 0px 0px 20px rgba(black, 0.6);
         padding: 5px;
     }
